@@ -26,6 +26,7 @@ EMPTY_FUNCTION_1 = str(INPUT / "similar_empty_func_1.py")
 EMPTY_FUNCTION_2 = str(INPUT / "similar_empty_func_2.py")
 MULTILINE = str(INPUT / "multiline-import")
 HIDE_CODE_WITH_IMPORTS = str(INPUT / "hide_code_with_imports.py")
+SIMILAR_TO_ITSELF = str(INPUT / "similar_to_itself")
 
 
 def test_ignore_comments() -> None:
@@ -356,6 +357,26 @@ TOTAL lines=50 duplicates=14 percent=28.00
 """
         ).strip()
     )
+
+
+def test_find_similar_lines_within_file() -> None:
+    # TODO check for 3 duplicated blocks
+    output = StringIO()
+    with redirect_stdout(output), pytest.raises(SystemExit) as ex:
+        similar.Run([SIMILAR_TO_ITSELF])
+    assert ex.value.code == 0
+    assert output.getvalue().strip() == (f"""
+6 similar lines in 1 files
+=={SIMILAR_TO_ITSELF}:[1:9]
+=={SIMILAR_TO_ITSELF}:[13:19]
+       arg1: int = 1,
+       arg2: str = "2",
+       arg3: int = 3,
+       arg4: bool = True,
+   ):
+       return arg1 + int(arg2) / arg3 if arg4 else None
+TOTAL lines=19 duplicates=6 percent=31.58
+""").strip()
 
 
 def test_help() -> None:
