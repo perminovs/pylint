@@ -1,4 +1,5 @@
 """https://github.com/pylint-dev/pylint/issues/2615"""
+# pylint: disable=duplicate-code
 def main():
     """When evaluating except blocks, assume try statements fail."""
     try:

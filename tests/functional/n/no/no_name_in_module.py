@@ -1,4 +1,4 @@
-# pylint: disable=wildcard-import,unused-import,invalid-name,import-error
+# pylint: disable=wildcard-import,unused-import,invalid-name,import-error, duplicate-code
 # pylint: disable=bare-except,broad-except,wrong-import-order,ungrouped-imports,wrong-import-position
 """check nonexistent names imported are reported"""
 

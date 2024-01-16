@@ -1,4 +1,4 @@
-#pylint: disable=missing-docstring
+#pylint: disable=missing-docstring, duplicate-code
 
 TEST_TUPLE = ('a', 'b'  # [implicit-str-concat]
               'c')

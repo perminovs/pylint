@@ -1,4 +1,4 @@
-# pylint: disable=invalid-name,unnecessary-pass,no-else-return,useless-else-on-loop
+# pylint: disable=invalid-name,unnecessary-pass,no-else-return,useless-else-on-loop, duplicate-code
 # pylint: disable=undefined-variable,consider-using-sys-exit,unused-variable,too-many-return-statements
 # pylint: disable=redefined-outer-name,using-constant-test,unused-argument
 # pylint: disable=broad-except, not-context-manager, no-method-argument, unspecified-encoding, broad-exception-raised

@@ -1,4 +1,4 @@
-# pylint: disable=missing-docstring
+# pylint: disable=missing-docstring, duplicate-code
 
 
 def function(arg1, arg2, arg3, arg4, arg5): # [too-many-locals]

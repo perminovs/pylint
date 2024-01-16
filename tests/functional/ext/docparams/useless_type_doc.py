@@ -1,4 +1,4 @@
-#pylint: disable = missing-any-param-doc
+#pylint: disable = missing-any-param-doc, duplicate-code
 """demonstrate FP with useless-type-doc"""
 
 

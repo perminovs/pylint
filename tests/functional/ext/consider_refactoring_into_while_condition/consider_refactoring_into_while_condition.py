@@ -1,5 +1,5 @@
 """Emit a message for breaking out of a while True loop immediately."""
-# pylint: disable=missing-function-docstring,missing-class-docstring,unrecognized-inline-option,invalid-name,literal-comparison, undefined-variable, too-many-public-methods, no-else-break
+# pylint: disable=missing-function-docstring,missing-class-docstring,unrecognized-inline-option,invalid-name,literal-comparison, undefined-variable, too-many-public-methods, no-else-break, duplicate-code
 
 class Issue8015:
     def bad(self):

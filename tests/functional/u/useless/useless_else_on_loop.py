@@ -1,5 +1,7 @@
 """Check for else branches on loops with break and return only."""
 
+# pylint: disable=duplicate-code
+
 
 def test_return_for():
     """else + return is not acceptable."""

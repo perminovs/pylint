@@ -2,7 +2,7 @@
 try blocks with return statements.
 See: https://github.com/pylint-dev/pylint/issues/5500.
 """
-# pylint: disable=inconsistent-return-statements
+# pylint: disable=inconsistent-return-statements, duplicate-code
 
 
 # Named expressions

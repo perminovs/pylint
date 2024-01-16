@@ -1,4 +1,4 @@
-# pylint:disable=missing-docstring, unreachable, using-constant-test, invalid-name, bare-except
+# pylint:disable=missing-docstring, unreachable, using-constant-test, invalid-name, bare-except,duplicate-code
 # pylint:disable=try-except-raise, undefined-variable, too-few-public-methods, superfluous-parens, no-else-raise
 
 try:

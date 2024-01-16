@@ -1,4 +1,4 @@
-# pylint: disable=missing-module-docstring, missing-function-docstring
+# pylint: disable=missing-module-docstring, missing-function-docstring, duplicate-code
 
 
 def triggered_if_if_block_ends_with_elif(machine, old_conf, new_conf):

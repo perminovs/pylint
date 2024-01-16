@@ -1,4 +1,4 @@
-# pylint: disable=too-few-public-methods, import-error, missing-docstring, unnecessary-pass
+# pylint: disable=too-few-public-methods, import-error, missing-docstring, unnecessary-pass, duplicate-code
 
 # Disabled because of a bug with pypy 3.8 see
 # https://github.com/pylint-dev/pylint/pull/7918#issuecomment-1352737369

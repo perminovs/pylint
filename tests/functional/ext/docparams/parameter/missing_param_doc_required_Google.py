@@ -5,7 +5,7 @@ Styleguide:
 https://google.github.io/styleguide/pyguide.html#doc-function-args
 """
 
-# pylint: disable=invalid-name, unused-argument, undefined-variable
+# pylint: disable=invalid-name, unused-argument, undefined-variable, duplicate-code
 # pylint: disable=line-too-long, too-few-public-methods, missing-class-docstring
 # pylint: disable=missing-function-docstring, function-redefined, inconsistent-return-statements
 # pylint: disable=dangerous-default-value, too-many-arguments

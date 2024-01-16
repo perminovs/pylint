@@ -2,6 +2,7 @@
 
 See: https://github.com/pylint-dev/pylint/issues/5370
 """
+# pylint: disable=duplicate-code
 
 try:
     pass

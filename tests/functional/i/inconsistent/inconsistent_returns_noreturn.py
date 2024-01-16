@@ -1,5 +1,5 @@
 """Testing inconsistent returns involving typing.NoReturn annotations."""
-# pylint: disable=missing-docstring, invalid-name
+# pylint: disable=missing-docstring, invalid-name, duplicate-code
 
 import sys
 import typing

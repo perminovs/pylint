@@ -2,7 +2,7 @@
 try blocks with return statements.
 See: https://github.com/pylint-dev/pylint/issues/5500.
 """
-# pylint: disable=inconsistent-return-statements,broad-exception-raised
+# pylint: disable=inconsistent-return-statements,broad-exception-raised, duplicate-code
 
 
 def function():

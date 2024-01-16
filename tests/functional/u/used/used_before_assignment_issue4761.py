@@ -1,4 +1,8 @@
 """used-before-assignment (E0601)"""
+
+# pylint: disable=duplicate-code
+
+
 def function():
     """Consider that except blocks may not execute."""
     try:

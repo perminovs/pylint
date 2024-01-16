@@ -1,5 +1,5 @@
 """Functional test"""
-# pylint: disable=missing-function-docstring, invalid-name
+# pylint: disable=missing-function-docstring, invalid-name, duplicate-code
 
 def any_even(items):
     """Return True if the list contains any even numbers"""

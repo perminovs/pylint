@@ -1,4 +1,8 @@
 """https://github.com/pylint-dev/pylint/issues/85"""
+
+# pylint: disable=duplicate-code
+
+
 def main():
     """When evaluating finally blocks, assume try statements fail."""
     try:

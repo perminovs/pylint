@@ -1,6 +1,6 @@
 """ Test that superfluous else break are detected. """
 
-# pylint:disable=invalid-name,missing-docstring,unused-variable
+# pylint:disable=invalid-name,missing-docstring,unused-variable,duplicate-code
 
 
 def foo1(x, y, z):

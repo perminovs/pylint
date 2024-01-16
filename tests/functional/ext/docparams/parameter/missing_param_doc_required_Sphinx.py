@@ -1,7 +1,7 @@
 """Tests for missing-param-doc and missing-type-doc for Sphinx style docstrings
 with accept-no-param-doc = no"""
 
-# pylint: disable=function-redefined, invalid-name, undefined-variable, missing-class-docstring
+# pylint: disable=function-redefined, invalid-name, undefined-variable, missing-class-docstring, duplicate-code
 # pylint: disable=unused-argument, too-few-public-methods, unnecessary-pass, line-too-long
 # pylint: disable=missing-function-docstring, disallowed-name
 

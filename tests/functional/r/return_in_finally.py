@@ -1,4 +1,4 @@
-# pylint: disable=missing-docstring,too-few-public-methods,useless-return,lost-exception,inconsistent-return-statements
+# pylint: disable=missing-docstring,too-few-public-methods,useless-return,lost-exception,inconsistent-return-statements, duplicate-code
 
 def second_favorite():
     fruits = ["apple"]

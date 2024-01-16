@@ -1,4 +1,4 @@
-# pylint: disable=too-few-public-methods, super-init-not-called
+# pylint: disable=too-few-public-methods, super-init-not-called, duplicate-code
 # pylint: disable=no-classmethod-decorator
 """Test external access to protected class members."""
 

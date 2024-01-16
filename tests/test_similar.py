@@ -223,6 +223,7 @@ class TestSimilarCodeChecker:
             code=0,
         )
 
+    # TODO perminovsi add test
     def test_duplicate_code_raw_strings_disable_scope_function(self) -> None:
         """Tests disabling duplicate-code at an inner scope level with another scope with
         similarity."""

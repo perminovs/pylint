@@ -1,4 +1,4 @@
-# pylint: disable=missing-docstring,invalid-name
+# pylint: disable=missing-docstring,invalid-name, duplicate-code
 def main1():
     try:
         raise ValueError

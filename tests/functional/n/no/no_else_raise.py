@@ -1,6 +1,6 @@
 """ Test that superfluous else raise are detected. """
 
-# pylint:disable=invalid-name,missing-docstring,unused-variable,raise-missing-from,broad-exception-raised
+# pylint:disable=invalid-name,missing-docstring,unused-variable,raise-missing-from,broad-exception-raised,duplicate-code
 
 def foo1(x, y, z):
     if x:  # [no-else-raise]

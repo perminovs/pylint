@@ -1,5 +1,5 @@
 # pylint:disable=missing-docstring, unreachable, bad-except-order, bare-except, unnecessary-pass
-# pylint: disable=undefined-variable, broad-except, raise-missing-from, too-few-public-methods
+# pylint: disable=undefined-variable, broad-except, raise-missing-from, too-few-public-methods, duplicate-code
 try:
     int("9a")
 except:  # [try-except-raise]

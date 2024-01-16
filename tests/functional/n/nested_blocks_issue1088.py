@@ -1,23 +1,25 @@
 # pylint: disable=missing-docstring,too-few-public-methods
 def had_bug(num):
+    a = 2  # [duplicate-code]
     if num > 1:  # [too-many-nested-blocks]
         if num > 2:
             if num > 3:
                 if num > 4:
                     if num > 5:
                         if num > 6:
-                            return True
+                            return a
     return None
 
 
 def was_correct(num):
+    a = 2
     if num > 1:  # [too-many-nested-blocks]
         if num > 2:
             if num > 3:
                 if num > 4:
                     if num > 5:
                         if num > 6:
-                            return True
+                            return a
     if num == 0:
-        return False
+        return 0
     return None

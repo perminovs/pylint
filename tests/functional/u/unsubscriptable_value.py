@@ -2,7 +2,7 @@
 Checks that value used in a subscript supports subscription
 (i.e. defines __getitem__ method).
 """
-# pylint: disable=missing-docstring,pointless-statement,expression-not-assigned,wrong-import-position, unnecessary-comprehension
+# pylint: disable=missing-docstring,pointless-statement,expression-not-assigned,wrong-import-position, unnecessary-comprehension, duplicate-code
 # pylint: disable=too-few-public-methods,import-error,invalid-name,wrong-import-order, redundant-u-string-prefix
 # pylint: disable=use-dict-literal
 

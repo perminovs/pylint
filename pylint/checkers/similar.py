@@ -896,7 +896,9 @@ class SimilarChecker(BaseRawFileChecker, Similar):
                 for line in lineset.real_lines[start_line:end_line]:
                     msg.append(line.rstrip())
 
-            self.add_message("R0801", args=(len(couples), "\n".join(msg)))
+            line = start_line + 1 if start_line is not None else None
+            # TODO perminovsi why not to add all the lines in the message?
+            self.add_message("R0801", args=(len(couples), "\n".join(msg)), line=line)
             duplicated += num * (len(couples) - 1)
         stats.nb_duplicated_lines += int(duplicated)
         stats.percent_duplicated_lines += float(total and duplicated * 100.0 / total)
