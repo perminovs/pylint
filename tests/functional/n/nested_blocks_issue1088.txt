@@ -1,13 +1,2 @@
-duplicate-code:3:0:None:None::"Similar lines in 2 files
-==functional.n.nested_blocks_issue1088:[14:22]
-==functional.n.nested_blocks_issue1088:[2:10]
-    a = 2  # [duplicate-code]
-    if num > 1:  # [too-many-nested-blocks]
-        if num > 2:
-            if num > 3:
-                if num > 4:
-                    if num > 5:
-                        if num > 6:
-                            return a":UNDEFINED
-too-many-nested-blocks:4:4:10:36:had_bug:Too many nested blocks (6/5):UNDEFINED
-too-many-nested-blocks:16:4:22:36:was_correct:Too many nested blocks (6/5):UNDEFINED
+too-many-nested-blocks:3:4:9:39:had_bug:Too many nested blocks (6/5):UNDEFINED
+too-many-nested-blocks:14:4:20:39:was_correct:Too many nested blocks (6/5):UNDEFINED
